@@ -1,0 +1,56 @@
+.intro {
+  max-width: 480px;
+  margin: 45px auto;
+  text-align: center;
+
+  .logo {
+    margin: 30px auto;
+  }
+  .desc {
+    text-align: start;
+    line-height: 20px;
+  }
+  .code {
+    background: rgb(19, 31, 43);
+    max-width: 420px;
+    margin: 30px auto;
+    text-align: start;
+    padding: 10px;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+
+    p {
+      margin: 10px 0;
+    }
+    .comment {
+      color: #ccc;
+    }
+  }
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 30px;
+  a {
+    margin: 0 10px;
+  }
+
+  p{
+    margin:30px 0;
+    color:#ccc;
+  }
+}
+
+.screenshot {
+  max-width: 840px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 15px;
+  border-bottom: 2px solid #ccc;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

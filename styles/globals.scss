@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+@import "reset.scss";
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 15px;
+  background: #111;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
