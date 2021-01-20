@@ -38,13 +38,13 @@ MyApp.getInitialProps = async ({ ctx }) => {
   // calls page's `getInitialProps` and fills `appProps.pageProps`
   ctx.req.cookie = cookie.parse(ctx.req.headers.cookie || "");
 
-  if (ctx.req.url !== "/account")
-    if (!ctx.req.cookie.user)
-      ctx.res
-        .writeHead(302, {
-          Location: "account",
-        })
-        .end();
+  // if (ctx.req.url !== "/account")
+  //   if (!ctx.req.cookie.user)
+  //     ctx.res
+  //       .writeHead(302, {
+  //         Location: "account",
+  //       })
+  //       .end();
 
   return {};
 };
