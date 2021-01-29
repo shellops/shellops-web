@@ -26,11 +26,9 @@ if (!firebase.apps.length) {
 }
 const MyApp = ({ Component, pageProps }) => {
   const [user, loading, error] = useAuthState(firebase.auth());
-  console.log(user, loading, error);
 
-  
   // if (!loading && !user) window.location.href = "/account";
-  
+
   return <Component {...pageProps} />;
 };
 
