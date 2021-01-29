@@ -19,7 +19,7 @@ const MetaTags: React.FC<Props> = ({
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="shortcut icon" href="/favicon.ico" type="image/icon" />
+      <link rel="shortcut icon" href="/favicon.png" type="image/icon" />
       <meta name="description" content={description} />
       <meta name="robots" content="index,follow" />
       <link rel="canonical" href={pageUrl} />
