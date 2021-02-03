@@ -1,12 +1,89 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
 @import "reset.scss";
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777;
+}
 
 body {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 14px;
+  font-size: 13px;
+  background: #111;
+  color: #fff;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 980px;
   margin: 0 auto;
+}
+header {
+  padding: 0px 15px;
+  line-height: 40px;
+  border-bottom: 3px solid #20232e;
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+  }
+
+  .start,
+  .login {
+    float: right;
+    display: block;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  .start {
+    color: #cca712;
+    background: #38393f;
+    border-radius: 10px;
+    // border-bottom:1px solid #3C54B3;
+  }
+
+  .login {
+    float: right;
+  }
+
+  nav {
+    display: inline-block;
+    ul {
+      li {
+        display: inline-block;
+        margin: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        a {
+          color: #ccc;
+        }
+      }
+    }
+  }
 }

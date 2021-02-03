@@ -5,6 +5,7 @@ import * as cookie from "cookie";
 
 import firebase from "firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
+import Logo from "../components/layout/logo";
 
 // Configure Firebase.
 const firebaseConfig = {
@@ -29,7 +30,34 @@ const MyApp = ({ Component, pageProps }) => {
 
   // if (!loading && !user) window.location.href = "/account";
 
-  return <Component {...pageProps} />;
+  return (
+    <div className="page">
+      <header>
+        <div className="container">
+          <div className="logo">
+            <Logo />
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="">Documentation</a>
+              </li>
+              <li>
+                <a href="">API Reference</a>
+              </li>
+              <li>
+                <a href="">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+
+          <a className="start">Open panel</a>
+          <a className="login">Sign in</a>
+        </div>
+      </header>
+      <Component {...pageProps} />
+    </div>
+  );
 };
 
 MyApp.getInitialProps = async ({ ctx }) => {

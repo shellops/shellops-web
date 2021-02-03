@@ -3,7 +3,8 @@ export default function Logo() {
   return (
     <div className={styles.logo}>
       {" "}
-      <h1>ShellOps</h1>
+      <img src="logo.svg" alt=""/>
+      <h1>Shellops</h1>
     </div>
   );
 }

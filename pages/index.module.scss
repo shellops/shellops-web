@@ -1,123 +1,53 @@
-.main {
-  background-color: #6aafe2;
-  height: 100vh;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  @media screen and (max-width: 900px) {
-    flex-direction: column;
+.intro {
+  padding: 60px;
+  h1,
+  p,
+  h2 {
+    margin: 10px;
   }
-  @supports (-webkit-appearance: none) {
-    height: calc(100vh - 56px);
-  }
-}
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  width: 42%;
-  background-color: #fff;
-  @media screen and (max-width: 1200px) {
-    width: 50%;
-  }
-  @media screen and (max-width: 900px) {
-    width: 100%;
-  }
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: self-start;
-  justify-content: center;
-  align-self: start;
-  align-items: center;
-  width: 100%;
-  margin-top: 50px;
-
-  @media screen and (max-width: 900px) {
-    flex-direction: column;
+  p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #eee;
+    font-weight: 500;
+    max-width: 520px;
   }
 
   h1 {
-    height: 0px;
-    width: 0px;
-    overflow: hidden;
-  }
-  img {
-    height: 100px;
-    @media screen and (max-width: 900px) {
-      height: 60px;
-    }
-  }
-  @media screen and (max-width: 900px) {
-    height: 20px;
-  }
-}
-.flow {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-  margin-top: 20px;
-  img {
-    width: 65%;
-    max-width: 450px;
-    @media screen and (max-width: 900px) {
-      max-width: 180px;
-      margin-top: 35px;
-      margin-bottom: 35px;
-    }
-  }
-}
-
-.content {
-  display: flex;
-  align-items: center;
-  padding: 50px;
-  width: 58%;
-  background-color: #6aafe2;
-  color: #00205b;
-  height: 100%;
-  box-sizing: border-box;
-  p {
-    font-size: 1.6rem;
-    font-weight: bold;
-    @media screen and (max-width: 900px) {
-      font-size: 1.2rem;
-      line-height: 21px;
-    }
-  }
-  @media screen and (max-width: 1200px) {
-    width: 50%;
-    flex-direction: column;
-    align-items: space-between;
-  }
-  @supports (-webkit-appearance: none) {
-    height: calc(100% - 56px);
+    font-size: 30px;
   }
 
-  @media screen and (max-width: 900px) {
-    position: relative;
-    width: 100%;
-    padding: 25px;
-    padding-top: 50px;
+  h2 {
+    font-size: 27px;
+    border-bottom: 3px solid #3c54b3;
+    display: inline-block;
+  }
+
+  section {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+
+    button {
+      background: #cca712;
+      font-weight: bold;
+      font-size: 17px;
+      border-radius: 10px;
+      padding: 10px 15px;
+      margin:15px;
+    }
+  }
+
+  img {
+    width: 40%;
+    display: inline-block;
   }
 }
 
-.footer {
-  position: absolute;
-  bottom: 30px;
-  right: 40px;
-  img {
-    width: 80px;
-    margin-left: 20px;
-    @media screen and (max-width: 900px) {
-      width: 50px;
-    }
-  }
-
-  @media screen and (max-width: 900px) {
+.mock{
+  img{
+    max-width: 640px;
+    margin-top: -160px;
   }
 }
