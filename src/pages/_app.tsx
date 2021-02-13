@@ -5,7 +5,7 @@ import * as cookie from 'cookie';
 
 import firebase from 'firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import Logo from '../components/layout/logo';
+import { Logo } from '@components';
 
 // Configure Firebase.
 const firebaseConfig = {

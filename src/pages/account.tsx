@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import firebase from 'firebase';
-import Logo from '../components/layout/logo';
+import Logo from '../components/Logo';
 
 export default function Account(context) {
   // Configure FirebaseUI.
