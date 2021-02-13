@@ -1,3 +1,3 @@
 import Logo from './Logo';
-import MetaTags from './MetaTags';
+import MetaTags from './metaTags';
 export { Logo, MetaTags };
