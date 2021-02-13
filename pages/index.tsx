@@ -10,7 +10,7 @@ const Home: NextPage<any> = (payload) => {
         pageUrl="/"
       />
 
-      <section className={styles.intro}>
+      <section className={styles.info}>
         <div className="container">
           <section>
             <h1>Manage your servers</h1>
