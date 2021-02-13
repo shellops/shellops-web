@@ -1,11 +1,9 @@
-import { NextPage } from 'next';
-import App from 'next/app';
-import '../assets/styles/globals.scss';
-import * as cookie from 'cookie';
+import '../styles/globals.scss';
 
+import { Logo } from '@components';
+import * as cookie from 'cookie';
 import firebase from 'firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { Logo } from '@components';
 
 // Configure Firebase.
 const firebaseConfig = {

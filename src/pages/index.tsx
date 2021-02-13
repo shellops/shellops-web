@@ -27,13 +27,13 @@ const Home: NextPage<any> = (payload) => {
 
             <button>Getting started</button>
           </section>
-          <img src='aliens.svg' alt='' />
+          <img src='/assets/images/aliens.svg' alt='' />
         </div>
       </section>
 
       <section className={styles.mock}>
         <div className='container'>
-          <img src='mock.svg' alt='' />
+          <img src='/assets/images/mock.svg' alt='' />
         </div>
       </section>
     </>
