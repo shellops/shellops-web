@@ -31,14 +31,16 @@
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
-    padding: 45px;
-    button {
+    padding: 45px 0;
+    a {
+      color: #000;
       background: #cca712;
       font-weight: bold;
       font-size: 17px;
       border-radius: 10px;
       padding: 10px 15px;
       margin: 15px;
+      display: inline-block;
     }
   }
 
@@ -50,7 +52,38 @@
 
 .mock {
   img {
-    max-width: 640px;
+    width: 640px;
     margin-top: -160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info {
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 0;
+    section {
+      display: block;
+      width: 100%;
+      padding: 0;
+      padding-top: 90px;
+    }
+    img {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: -80px;
+      width: 200px;
+      z-index: -3;
+    }
+  }
+
+  .mock {
+    img {
+      width: 100%;
+      max-width: unset;
+      margin-top: 0;
+    }
   }
 }
