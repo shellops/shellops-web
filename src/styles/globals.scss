@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
-@import "reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+@import 'reset.scss';
 
 ::-webkit-scrollbar {
   height: 10px;
@@ -21,14 +21,14 @@
 }
 
 body {
-  font-family: "Ubuntu Mono", monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 13px;
   background: #111;
   color: #fff;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -67,9 +67,9 @@ header {
     // border-bottom:1px solid #3C54B3;
   }
 
-  .login {
-    float: right;
-  }
+  // .login {
+  //   float: right;
+  // }
 
   nav {
     display: inline-block;
