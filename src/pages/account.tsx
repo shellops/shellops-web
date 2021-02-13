@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-import firebase from "firebase";
-import Logo from "../components/layout/logo";
+import React, { useEffect, useState } from 'react';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import firebase from 'firebase';
+import Logo from '../components/layout/logo';
 
 export default function Account(context) {
   // Configure FirebaseUI.
   const uiConfig = {
     // Popup signin flow rather than redirect flow.
-    signInFlow: "popup",
+    signInFlow: 'popup',
     // We will display Google and Facebook as auth providers.
     signInOptions: [
       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
