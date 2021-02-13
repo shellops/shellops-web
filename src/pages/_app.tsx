@@ -35,7 +35,7 @@ const MyApp = ({ Component, pageProps }) => {
           <div className='logo'>
             <Logo />
           </div>
-          <nav>
+          {/* <nav>
             <ul>
               <li>
                 <a href=''>Documentation</a>
@@ -47,10 +47,10 @@ const MyApp = ({ Component, pageProps }) => {
                 <a href=''>Pricing</a>
               </li>
             </ul>
-          </nav>
-
+          </nav> */}
+{/* 
           <a className='start'>Open panel</a>
-          <a className='login'>Sign in</a>
+          <a className='login'>Sign in</a> */}
         </div>
       </header>
       <Component {...pageProps} />
